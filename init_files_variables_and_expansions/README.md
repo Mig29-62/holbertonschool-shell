@@ -3,3 +3,5 @@
 3.we add /action to the end of PATH variable
 4.we count the directories in path using grep,wc,echo with piping technique
 5.we print all environmental variables using printenv command
+6.we print all local variables,functions and etc. using set command
+7.we create a new local variable
