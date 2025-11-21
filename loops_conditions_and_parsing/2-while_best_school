@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #this script prints numbers from 1 to 10
-#shellcheck disable=SC2034
+#shellcheck disable=SC2034,SC2004
 "$i" = 1 
 while [ "$i" != 10 ]
 do
