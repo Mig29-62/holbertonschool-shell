@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #this script prints numbers from 1 to 10
 #shellcheck disable=SC2034,SC2004
-export i="1" 
+export i="0" 
 until [ "$i" = 10 ]
 do
 	echo "Best School"
