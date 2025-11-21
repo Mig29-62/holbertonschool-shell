@@ -10,5 +10,5 @@ do
          else
 		echo "Best School"
 	fi
-   echo "$i"
+   i=$(( $i+1 ))
 done
