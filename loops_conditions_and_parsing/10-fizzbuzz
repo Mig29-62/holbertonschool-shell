@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# in this script we check numbers from 1  to 100 and what they divide  into with printing according words
+# shellcheck disable=SC2004
+
+i=0
+
+while [ "$i" -lt 101 ]
+do
+	    if (( i % 3 == 0 && i % 5 == 0 )); then
+	        echo "FizzBuzz"
+	    else 
+	        if (( i % 3 == 0 )); then
+			echo "Fizz"
+	        elif (( i % 5 == 0 )); then
+	                echo "Buzz"
+	        else
+	               echo  "$i"
+		fi
+	    fi
+            i=$(( i + 1 ))
+done
+
