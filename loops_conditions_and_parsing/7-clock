@@ -4,7 +4,7 @@
 
 i=0
 
-while [ "$i" -lt 721 ]; do
+while [ "$i" -lt 780 ]; do
     if (( i % 60 == 0 )); then
         echo "Hour: $(( i / 60 ))"
     else
