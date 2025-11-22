@@ -2,7 +2,7 @@
 # in this script we check numbers from 1  to 100 and what they divide  into with printing according words
 # shellcheck disable=SC2004
 
-i=0
+i=1
 
 while [ "$i" -lt 101 ]
 do
