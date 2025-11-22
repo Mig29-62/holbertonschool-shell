@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-for i in $(ls -1)
+#in this script we use ls and # parameter expansion(to format dash out) to print files after dash in a list format
+#shellcheck disable=SC2045
+for i in *
 	do
 		echo "${i#*-}"
 done
