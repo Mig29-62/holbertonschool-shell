@@ -1,5 +1,6 @@
 #!/usr/bin/env bash 
 #in this script we use case to print superstitious numbers and their origin countries
+#shellcheck disable=SC2004
 i="1"
 while [ $i -lt  20 ]
 do
