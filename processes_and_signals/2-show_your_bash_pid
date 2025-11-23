@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#in this script we list processes using ps aux and then find bash using grep
+#shellcheck disable=SC2009
+ps aux | grep bash
