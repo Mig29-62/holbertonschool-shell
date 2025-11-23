@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #we use pkill to end highlander
-pkill -9 7-highlander
+kill -9 $(pgrep highlander)
 
