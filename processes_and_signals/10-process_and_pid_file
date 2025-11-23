@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #comment
-touch myscript.pid
-echo $$ > myscript.pid
+echo $$ > /var/run/myscript.pid
 i=0
 while [ $i != 10 ]
 do
