@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #we use pkill to end highlander
-pkill -9 7-highlander
+pkill -9 -f  7-highlander
