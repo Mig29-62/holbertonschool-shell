@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #in this script we use awk command to separate apache access logs by whitespace and print specific fields.
-awk -F' ' '{print $10 | "sort"  } ' apache-access.log
+awk -F' ' '{print $10,$1,$9 | "sort"  } ' apache-access.log
 
 
